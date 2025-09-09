@@ -117,7 +117,7 @@ fun DetailsScreen() {
                 Icon(
                     painter = painterResource(id = R.drawable.git),
                     modifier = Modifier.size(20.dp),
-                    contentDescription = "Forks"
+                    contentDescription = "Git"
                 )
             }
 
@@ -138,8 +138,6 @@ fun DetailsScreen() {
                     context.startActivity(intent)
                 },
                 modifier = Modifier.fillMaxWidth(0.7f),
-
-
             ) {
                 Text("Show Issues",
                     fontSize = 18.sp,
