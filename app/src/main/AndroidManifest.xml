@@ -23,20 +23,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Task1 Activity -->
         <activity
             android:name=".Task1"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Compose">
-        </activity>
+            android:theme="@style/Theme.Compose" />
+
+        <!-- Task2 Activity -->
         <activity
             android:name=".Task2"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Compose" />
+
+        <!-- Task3 Activity -->
+        <activity
+            android:name=".Task3"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Compose" />
+
     </application>
 
 </manifest>
